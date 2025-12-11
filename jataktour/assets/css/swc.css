@@ -1,0 +1,71 @@
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #26262c;
+    display: none;
+}
+
+#boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 850px;
+    display: none;
+    z-index: 9999;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#boxes #dialog {
+    width: 450px;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    font-size: 15pt;
+}
+
+@media (max-width:767px) {
+    #boxes #dialog {
+        width: 250px;
+    }
+}
+
+.agree:hover {
+    background-color: #D1D1D1;
+}
+
+.popupoption:hover {
+    background-color: #D1D1D1;
+    color: green;
+}
+
+.popupoption2:hover {
+    color: red;
+}
+
+.img-popup {
+    width: 433px;
+}
+
+@media (max-width:767px) {
+    .img-popup {
+        width: 233px;
+    }
+}
+
+.btnclick {
+    font-family: sans-serif;
+    padding: 10px 10px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #6AD317;
+    color: #fff;
+    position: absolute;
+    margin-top: -15px;
+    left: 0;
+    right: 0;
+}
